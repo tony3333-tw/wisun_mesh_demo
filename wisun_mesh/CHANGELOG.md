@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.5
+- lowpan: 6LoWPAN IPHC decode (contexts, multicast, NHC extension headers kept raw).
+- Verified on all 27 reference frames: DIO/DAO/DAO-ACK, ping request/reply.
+
 ## v0.0.4
 - mac154: IEEE 802.15.4 frame decode/encode (2006, no security), {error, malformed} on bad input.
 - Verified on all 27 frames in the reference capture.
