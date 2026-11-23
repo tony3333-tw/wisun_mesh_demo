@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.4
+- mac154: IEEE 802.15.4 frame decode/encode (2006, no security), {error, malformed} on bad input.
+- Verified on all 27 frames in the reference capture.
+
 ## v0.0.3
 - slip_link: gen_server TCP link to slip-radio (?M on connect, reconnect, owner messages).
 - sim/br_cooja.csc: Cooja sim without the C border router.
